@@ -10,7 +10,7 @@
 
 ---
 
-## 📋 Overview
+## Overview
 
 **GIS Kos Padang** is a web-based geographic information system designed to help students and workers find suitable boarding houses (kos-kosan) in Padang City. The system uses **Random Forest classification algorithm** to intelligently filter and recommend boarding houses based on multiple criteria including location, price, facilities, and proximity to universities.
 
@@ -24,7 +24,7 @@
 
 ---
 
-## ✨ Features
+## Features
 
 ### For Tenants/Students
 - Search boarding houses by keyword, location, campus proximity, and budget
@@ -46,7 +46,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **Native PHP** (no framework)
@@ -73,7 +73,7 @@
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - **PHP 7.4+** with MySQL extension
@@ -140,24 +140,24 @@ http://localhost:8000
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 GIS_Kos_Padang_Random_Forest/
-├── css/                    # Stylesheets
-├── js/                     # JavaScript files
-├── img/                    # Images and assets
-├── php/                    # PHP utility files (connection, helpers)
-├── template/               # Header, footer, navigation templates
-├── kost/                   # Boarding house photos/uploads
-├── app.py                  # Flask backend with ML model
-├── model_rf.pkl            # Trained Random Forest model
-├── index.php               # Homepage
-├── daftar.php              # Registration page
-├── login.php               # Login page
-├── tambah.php              # Add new property (owner)
-├── tentang.php             # About page
-└── README.md
+ css/                    # Stylesheets
+ js/                     # JavaScript files
+ img/                    # Images and assets
+ php/                    # PHP utility files (connection, helpers)
+ template/               # Header, footer, navigation templates
+ kost/                   # Boarding house photos/uploads
+ app.py                  # Flask backend with ML model
+ model_rf.pkl            # Trained Random Forest model
+ index.php               # Homepage
+ daftar.php              # Registration page
+ login.php               # Login page
+ tambah.php              # Add new property (owner)
+ tentang.php             # About page
+ README.md
 ```
 
 ---
@@ -192,7 +192,7 @@ The system uses a pre-trained Random Forest model (`model_rf.pkl`) to classify b
 
 ---
 
-## 🗺️ Geographic Features
+## Geographic Features
 
 - Interactive map showing boarding house locations
 - Marker clustering for better visualization
@@ -202,7 +202,7 @@ The system uses a pre-trained Random Forest model (`model_rf.pkl`) to classify b
 
 ---
 
-## 🔐 User Roles
+## User Roles
 
 | Role | Capabilities |
 |------|-------------|
@@ -213,7 +213,7 @@ The system uses a pre-trained Random Forest model (`model_rf.pkl`) to classify b
 
 ---
 
-## 📊 Database Schema (Key Tables)
+## Database Schema (Key Tables)
 
 - `kost` - Boarding house properties (id_kost, nama_kost, deskripsi, kecamatan, kampus, harga_sewa, fasilitas_kost, etc.)
 - `user` - Users (id, nama_lengkap, email, password, role, foto_profil)
@@ -221,7 +221,7 @@ The system uses a pre-trained Random Forest model (`model_rf.pkl`) to classify b
 
 ---
 
-## 🎯 Use Cases
+## Use Cases
 
 1. **Student** searching for affordable boarding house near Universitas Andalas with WiFi and parking
 2. **Property owner** listing a new female-only boarding house in Kuranji district
@@ -230,7 +230,7 @@ The system uses a pre-trained Random Forest model (`model_rf.pkl`) to classify b
 
 ---
 
-## 🔧 API Endpoints
+## API Endpoints
 
 ### GET `/api/kost`
 Get paginated boarding house data.
@@ -313,20 +313,20 @@ This project was developed as part of academic research. Contributions are welco
 
 ---
 
-## 📄 License
+## License
 
 This project is for educational and research purposes.
 
 ---
 
-## 👤 Author
+## Author
 
 **Rindang Alam Nur Muhammad**  
 GitHub: [@rindangalam](https://github.com/rindangalam)
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **scikit-learn** - Machine learning library
 - **Flask** - Python microframework
